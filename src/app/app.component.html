@@ -1,0 +1,19 @@
+<h1>Helló Világ</h1>
+
+<p>
+  {{ title }}
+</p>
+
+<p>
+  {{ fullname | uppercase}}
+</p>
+
+<p>
+  A kedvenc könyvem:
+  <br>
+  {{ janos.title }} <br> {{ janos.writer }}
+</p>
+
+<input [(ngModel)]="fullname">
+
+<button (click)="csinal()">Csinál</button>
